@@ -1,4 +1,4 @@
-package carte;
+package cartes;
 
 public class Parade extends Bataille {
 
@@ -6,7 +6,6 @@ public class Parade extends Bataille {
 		super(type);
 	}
 
-	@Override
 	public String toString() {
 		return getType().getParade();
 	}

@@ -1,9 +1,9 @@
-package carte;
+package cartes;
 
 public abstract class Probleme extends Carte {
-
-	private Type type;
 	
+	private Type type;
+
 	protected Probleme(Type type) {
 		this.type = type;
 	}
@@ -12,4 +12,6 @@ public abstract class Probleme extends Carte {
 		return type;
 	}
 	
+	
+
 }

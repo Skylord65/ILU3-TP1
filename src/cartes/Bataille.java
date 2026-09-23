@@ -1,4 +1,4 @@
-package carte;
+package cartes;
 
 public abstract class Bataille extends Probleme {
 
@@ -7,3 +7,4 @@ public abstract class Bataille extends Probleme {
 	}
 
 }
+

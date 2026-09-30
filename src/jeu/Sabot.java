@@ -29,7 +29,20 @@ public class Sabot implements Iterable<Carte>{
 
 	@Override
 	public Iterator<Carte> iterator() {
-		// TODO Auto-generated method stub
-		return null;
+		return new Iterateur();
+	}
+	
+	private class Iterateur implements Iterator<Carte> {
+
+		@Override
+		public boolean hasNext() {
+			return ;
+		}
+
+		@Override
+		public Carte next() {
+			
+			return null;
+		}
 	}
 }
